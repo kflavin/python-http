@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.39.249.140:5000/kflavin/python-http
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: python-http
